@@ -8,3 +8,4 @@ venv/
 .idea
 .env
 .DS_Store
+files/

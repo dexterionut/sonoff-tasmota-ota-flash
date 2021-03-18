@@ -1,8 +1,8 @@
 import hashlib
 import requests
 
-SONOFF_IP_ADDRESS = '192.168.168.134'
-TASMOTA_FILE_URL = 'http://192.168.168.12:8000/files/tasmota-lite.bin'
+SONOFF_IP_ADDRESS = '192.168.168.130'
+TASMOTA_FILE_URL = 'http://192.168.168.12:9999/files/tasmota-lite.bin'
 
 
 def _get_in(source_dict, get_list, default=None):
